@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
     return(EXIT_SUCCESS);
   }
 
-  strncpy(serial_port, "/dev/ttyUSB1", 32);
+  strncpy(serial_port, "/dev/ttyUSB0", 32);
   // strncpy(serial_port, "/dev/ttyS0", 32);
   // strncpy(serial_port, "/dev/ttyS1", 32);
 
